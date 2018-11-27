@@ -10,6 +10,7 @@
 	http://www.springframework.org/schema/context/spring-context.xsd">
 
     <context:component-scan base-package="/spring-in-5-minutes"/>
+    
 	<bean id="XmlJdbcConnection" class="com.in28minutes.spring.basics.springin5steps.xml.XmlJdbcConnection"></bean>
 	<bean id="XmlPersonDAO" class="com.in28minutes.spring.basics.springin5steps.xml.XmlPersonDAO">
 		<property name="XmlJdbcConnection" ref="XmlJdbcConnection" />
