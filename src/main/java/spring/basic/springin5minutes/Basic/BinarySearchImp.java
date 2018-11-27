@@ -40,13 +40,4 @@ public class BinarySearchImp {
 		return 3;
 	}
 	
-//	@PreDestroy
-//	public void preDestroy() {
-//		logger.info("pre-destroy");
-//	}
-////
-//	@PostConstruct
-//	public void postConstruct() {
-//		logger.info("post-construct");
-//	}
 }

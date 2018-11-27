@@ -12,9 +12,6 @@ public class SpringIn5MinutesBasicApplication {
 		try (AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(
 				SpringIn5MinutesBasicApplication.class);) {
 			BinarySearchImp binarysearchImp1 = applicationContext.getBean(BinarySearchImp.class);
-			BinarySearchImp binarysearchImp2 = applicationContext.getBean(BinarySearchImp.class);
-			System.out.println(binarysearchImp1);
-			System.out.println(binarysearchImp2);
 			System.out.println(binarysearchImp1.binarySearch(new int[] { 1, 2, 3 }, 2));
 		}
 	}

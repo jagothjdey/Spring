@@ -1,6 +1,5 @@
 package spring.basic.xml;
 
-import org.springframework.stereotype.Component;
 
 public class XmlPersonDAO {
 	XmlJdbcConnection xmlJdbcConnection;
